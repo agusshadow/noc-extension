@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "NOC Extension",
+    "description": "Herramienta que facilita el monitoreo",
+    "version": "1.0",
+    "icons": {
+      "16" : "src/icon-16.png",
+      "48" : "src/icon-48.png",
+      "128" : "src/icon-128.png"
+    },
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "src/icon.png"
+    },
+    "permissions": [
+      "contextMenus"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+}
